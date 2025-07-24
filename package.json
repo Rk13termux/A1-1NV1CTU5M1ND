@@ -1,0 +1,16 @@
+{
+  "name": "seductor-bot-ia",
+  "version": "1.0.0",
+  "description": "Bot de Telegram con IA gratuita para seducción y motivación",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^4.5.3",
+    "dotenv": "^16.6.1",
+    "groq-sdk": "^0.27.0",
+    "node-fetch": "^2.7.0",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
